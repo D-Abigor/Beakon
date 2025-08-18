@@ -57,6 +57,7 @@ func main() {
 		}
 
 		mssg := string(buffer[:length])
+		fmt.Println("")
 		log.Printf("\033[32m Recieved transmission from %v\033[0m \n message:  %s", src, mssg)
 	}
 }
